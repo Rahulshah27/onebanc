@@ -1,11 +1,11 @@
 package shah.rahul.taskdemo.data;
 
-public class Products {
+public class CuisinesProducts {
     private String mName;
     private Integer mImage;
 
-    public Products(){}
-    public Products(String Name, Integer Image) {
+    public CuisinesProducts(){}
+    public CuisinesProducts(String Name, Integer Image) {
 
         this.mName = Name;
         this.mImage = Image;

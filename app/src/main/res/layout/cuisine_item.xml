@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:weightSum="4"
+        android:weightSum="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         
@@ -16,7 +16,7 @@
             android:layout_weight="1">
             
             <ImageView
-                android:scaleType="fitXY"
+                android:scaleType="centerCrop"
                 android:id="@+id/img_cuisine"
                 app:srcCompat="@drawable/cuisine_north_indian"
                 android:layout_width="match_parent"
@@ -30,9 +30,9 @@
                 android:background="#A0333639"
                 android:fontFamily="@font/roboto_light"
                 android:gravity="center"
-                android:text="North Indian Cuisene"
+                android:text="@string/north_indian_cuisene"
                 android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:textSize="@dimen/text_size_cuisine_item" />
 
         </FrameLayout>
     </LinearLayout>
